@@ -143,7 +143,8 @@ section.wishlist div.txt button {
 div.flex-container {
   display: flex;
   flex-direction: row;
-  gap: .2rem;
+  column-gap: .2rem;
+  row-gap: 2rem;
   margin-top: 2rem;
   justify-content: space-between;
   align-items: center;
