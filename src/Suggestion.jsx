@@ -24,11 +24,18 @@ const SuggestionItem = ({
         >
           <circle cx="17" cy="17" r="17" fill="white" />
           <path
-            d="M25 10.5714H10.3333L11.6667 26H22.3333L23.6667 10.5714H9M17 14.4286V22.1429M20.3333 14.4286L19.6667 22.1429M13.6667 14.4286L14.3333 22.1429M14.3333 10.5714L15 8H19L19.6667 10.5714"
+            d="M26.2565 15.962C26.7305 16.582 26.7305 17.419 26.2565 18.038C24.7635 19.987 21.1815 24 16.9995 24C12.8175 24 9.23552 19.987 7.74252 18.038C7.51191 17.7411 7.38672 17.3759 7.38672 17C7.38672 16.6241 7.51191 16.2589 7.74252 15.962C9.23552 14.013 12.8175 10 16.9995 10C21.1815 10 24.7635 14.013 26.2565 15.962V15.962Z"
             stroke="black"
-            strokeWidth="1.56"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M17 20C18.6569 20 20 18.6569 20 17C20 15.3431 18.6569 14 17 14C15.3431 14 14 15.3431 14 17C14 18.6569 15.3431 20 17 20Z"
+            stroke="black"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
           />
         </svg>
       </div>
@@ -87,7 +94,9 @@ const Suggestion = () => {
   return (
     <section className="wishlist">
       <div className="txt">
-        <p><span className="blob"></span> Just For You</p>
+        <p>
+          <span className="blob"></span> Just For You
+        </p>
         <button type="button">See All</button>
       </div>
       <div className="flex-container">
@@ -102,7 +111,11 @@ const Suggestion = () => {
           name="GP11 Shooter USB Gamepad"
           price={750}
         />
-        <SuggestionItem image={jacket} name="Quilted Satin Jacket" price={750} />
+        <SuggestionItem
+          image={jacket}
+          name="Quilted Satin Jacket"
+          price={750}
+        />
       </div>
     </section>
   );
