@@ -129,6 +129,13 @@ section.wishlist div.txt p {
   font-weight: 400;
 }
 
+section.wishlist div.txt p span {
+  background-color: #db4444;
+  margin-right: 5px;
+  padding: 10px 12px;
+  border-radius: 5px;
+}
+
 section.wishlist div.txt button {
   text-wrap: nowrap;
   padding: 16px 48px;

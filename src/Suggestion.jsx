@@ -4,7 +4,7 @@ import gammaxx from "../src/assets/gammaxx.png";
 import frame from "../src/assets/Frame 608.png";
 import jacket from "../src/assets/jacket.png";
 
-const WishlistItem = ({
+const SuggestionItem = ({
   image = duffle,
   name = "Gucci duffel bag",
   price = 960,
@@ -87,22 +87,22 @@ const Suggestion = () => {
   return (
     <section className="wishlist">
       <div className="txt">
-        <p>WishList (4)</p>
-        <button type="button">Move All To Blog</button>
+        <p><span className="blob"></span> Just For You</p>
+        <button type="button">See All</button>
       </div>
       <div className="flex-container">
-        <WishlistItem showDiscount={true} originalPrice={1160} />
-        <WishlistItem
+        <SuggestionItem showDiscount={true} originalPrice={1160} />
+        <SuggestionItem
           image={gammaxx}
           name="RGB liquid CPU Cooler"
           price={750}
         />
-        <WishlistItem
+        <SuggestionItem
           image={frame}
           name="GP11 Shooter USB Gamepad"
           price={750}
         />
-        <WishlistItem image={jacket} name="Quilted Satin Jacket" price={750} />
+        <SuggestionItem image={jacket} name="Quilted Satin Jacket" price={750} />
       </div>
     </section>
   );
