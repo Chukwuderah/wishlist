@@ -9,11 +9,13 @@ const SuggestionItem = ({
   price = 960,
   originalPrice,
   showDiscount = false,
+  isNew = false,
 }) => {
   return (
     <div className="items">
       <div className="disc">
         {showDiscount && <span>-35%</span>}
+        {isNew && <span style={{ backgroundColor: '#00FF66' }}>NEW</span>}
         <svg
           width="34"
           height="34"
@@ -109,6 +111,7 @@ const Suggestion = () => {
           image={gamepad}
           name="HAVIT HV-G92 Gamepad"
           price={560}
+          isNew={true}
         />
         <SuggestionItem
           image={Keyboard}
