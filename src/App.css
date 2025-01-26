@@ -162,18 +162,25 @@ div.items .disc {
   align-items: center;
   background: inherit;
   padding: 15px;
+  position: relative;
 }
 
 div.items .disc span {
   color: #fff;
-  background-color: #DB4444;
+  background-color: #db4444;
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
   padding: 4px 12px;
 }
 
-div.content, img {
+div.items .disc svg {
+  position: absolute;
+  right: 12px;
+}
+
+div.content,
+img {
   background: inherit;
 }
 
@@ -202,7 +209,8 @@ div.cart p {
   line-height: 18px;
 }
 
-strong, p.price {
+strong,
+p.price {
   width: 100%;
 }
 
@@ -213,7 +221,7 @@ strong {
 }
 
 p.price {
-  color: #DB4444;
+  color: #db4444;
   font-size: 1rem;
   font-weight: 500;
   line-height: 24px;
@@ -222,4 +230,5 @@ p.price {
 p.price span {
   text-decoration: line-through;
   color: #000;
+  padding-left: 12px;
 }
