@@ -1,12 +1,11 @@
 import React from "react";
-import duffle from "../src/assets/duffle.png";
-import gammaxx from "../src/assets/gammaxx.png";
-import frame from "../src/assets/Frame 608.png";
-import jacket from "../src/assets/jacket.png";
-
+import laptop from "../src/assets/Frame 604.png";
+import monitor from "../src/assets/LCD Monitor.png";
+import gamepad from "../src/assets/Gamepad.png";
+import Keyboard from "../src/assets/Keyboard.png";
 const SuggestionItem = ({
-  image = duffle,
-  name = "Gucci duffel bag",
+  image = laptop,
+  name = "ASUS FHD Gaming Laptop",
   price = 960,
   originalPrice,
   showDiscount = false,
@@ -102,19 +101,19 @@ const Suggestion = () => {
       <div className="flex-container">
         <SuggestionItem showDiscount={true} originalPrice={1160} />
         <SuggestionItem
-          image={gammaxx}
-          name="RGB liquid CPU Cooler"
-          price={750}
+          image={monitor}
+          name="IPS LCD Gaming Monitor"
+          price={1160}
         />
         <SuggestionItem
-          image={frame}
-          name="GP11 Shooter USB Gamepad"
-          price={750}
+          image={gamepad}
+          name="HAVIT HV-G92 Gamepad"
+          price={560}
         />
         <SuggestionItem
-          image={jacket}
-          name="Quilted Satin Jacket"
-          price={750}
+          image={Keyboard}
+          name="AK-900 Wired Keyboard"
+          price={200}
         />
       </div>
     </section>
