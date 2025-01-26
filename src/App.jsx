@@ -3,6 +3,7 @@ import "./App.css";
 import Top from "./Top";
 import Header from "./Header";
 import WishList from "./wishList";
+import Suggestion from "./Suggestion";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Top />
       <Header />
       <WishList />
+      <Suggestion />
     </body>
   );
 }
