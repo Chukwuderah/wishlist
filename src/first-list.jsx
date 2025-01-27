@@ -4,7 +4,7 @@ const FirstList = () => {
   return (
     <div className="firstList">
       <h1>Exclusive</h1>
-      <p className="suscribe">Suscribe</p>
+      <h3>Suscribe</h3>
       <p>Get 10% off your first order</p>
       <div className="input">
         <input
