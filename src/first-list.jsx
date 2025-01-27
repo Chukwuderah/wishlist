@@ -7,7 +7,12 @@ const FirstList = () => {
       <p className="suscribe">Suscribe</p>
       <p>Get 10% off your first order</p>
       <div className="input">
-        <input type="email" name="email" id="email" placeholder="Enter your email" />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+        />
         <svg
           width="24"
           height="24"
