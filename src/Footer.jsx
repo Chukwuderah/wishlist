@@ -3,14 +3,16 @@ import FirstList from "./first-list";
 import SecondList from "./secondList";
 import ThirdList from "./thirdList";
 import FourthList from "./fourthList";
+import FifthList from "./fifthList";
 
 const Footer = () => {
   return (
-    <footer className="flex-container">
+    <footer>
       <FirstList />
       <SecondList />
       <ThirdList />
       <FourthList />
+      <FifthList />
     </footer>
   );
 };
