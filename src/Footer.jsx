@@ -1,6 +1,9 @@
 import React from "react";
+import FirstList from "./first-list";
 
 const Footer = () => {
     return (
-        <div className="footer"></div>
+        <footer className="flex-container">
+            <FirstList />
+        </footer>
     );}
