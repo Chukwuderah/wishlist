@@ -4,6 +4,7 @@ import Top from "./Top";
 import Header from "./Header";
 import WishList from "./wishList";
 import Suggestion from "./Suggestion";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <WishList />
       <Suggestion />
+      <Footer />
     </body>
   );
 }
