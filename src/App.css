@@ -262,7 +262,7 @@ p.price span {
 footer {
   width: 100%;
   background-color: #000;
-  padding: 5rem 8rem;
+  padding: 5rem 7.6rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -278,12 +278,13 @@ footer h1 {
 }
 
 div.input {
+  width: fit-content;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
   border: 1px solid #fff;
-  padding: 10px 2px;
+  padding: 10px;
   margin-top: 15px;
 }
 
