@@ -2,7 +2,7 @@ import React from "react";
 
 const FourthList = () => {
   return (
-    <div className="fourth-list">
+    <div className="fourthList">
       <h3>Quick Link</h3>
       <ul>
         <li>Privacy Policy</li>

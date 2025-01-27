@@ -2,7 +2,7 @@ import React from "react";
 
 const FirstList = () => {
   return (
-    <div className="first">
+    <div className="firstList">
       <h1>Exclusive</h1>
       <p className="suscribe">Suscribe</p>
       <p>Get 10% off your first order</p>

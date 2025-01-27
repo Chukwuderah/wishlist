@@ -2,7 +2,7 @@ import React from "react";
 
 const SecondList = () => {
   return (
-    <div className="SecondList">
+    <div className="secondList">
       <h3>Support</h3>
       <ul>
         <li>111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</li>
