@@ -144,7 +144,7 @@ section.wishlist div.txt button {
 div.flex-container {
   display: flex;
   flex-direction: row;
-  column-gap: .2rem;
+  column-gap: 0.2rem;
   row-gap: 2rem;
   margin-top: 2rem;
   justify-content: space-between;
@@ -220,7 +220,8 @@ div.cart p {
 }
 
 strong,
-p.price {
+p.price,
+.star {
   width: 100%;
 }
 
@@ -242,4 +243,17 @@ p.price span {
   text-decoration: line-through;
   color: #000;
   padding-left: 12px;
+}
+
+.star {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 9px;
+}
+
+.star span {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
 }
