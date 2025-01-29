@@ -31,7 +31,7 @@ a {
 
 div.top span {
   position: absolute;
-  right: 8rem;
+  right: 7rem;
 }
 
 div.top p,
@@ -57,7 +57,7 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: 3px solid #f5f5f5;
-  padding: 2rem 8rem;
+  padding: 2rem 7rem;
 }
 
 header h1 {
@@ -105,7 +105,7 @@ svg {
 }
 
 section {
-  padding: 2rem 8rem;
+  padding: 2rem 7rem;
   width: 100%;
 }
 
@@ -144,7 +144,7 @@ section.wishlist div.txt button {
 div.flex-container {
   display: flex;
   flex-direction: row;
-  column-gap: 0.2rem;
+  column-gap: 4px;
   row-gap: 2rem;
   margin-top: 2rem;
   justify-content: space-between;
@@ -153,7 +153,8 @@ div.flex-container {
 }
 
 div.items {
-  width: 250px;
+  /* width: 250px; */
+  width: 20%;
   max-width: 50%;
   display: flex;
   flex-direction: column;
@@ -191,10 +192,11 @@ div.items .disc svg {
 div.content,
 img {
   background: inherit;
+  padding: 10px 5px;
 }
 
 img {
-  width: 178px;
+  width: 100%;
   height: 149px;
 }
 
@@ -264,7 +266,7 @@ p.price span {
 footer {
   width: 100%;
   background-color: #000;
-  padding: 5rem 7.6rem 1.2rem;
+  padding: 5rem 7rem 1.2rem;
 }
 
 footer div.footer {
@@ -272,7 +274,8 @@ footer div.footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 70px;
+  gap: 30px;
+  flex-wrap: wrap;
   margin-bottom: 30px;
 }
 
@@ -316,7 +319,7 @@ div.secondList,
 div.thirdList,
 div.fourthList,
 div.fifthList {
-  width: 100%;
+  /* width: 100%; */
   background: inherit;
   color: #fff;
 }
@@ -341,20 +344,20 @@ div.fifthList .QR {
 }
 
 .QR img {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
 }
 
 .download {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5px;
+  /* gap: 2px; */
 }
 
 .download img {
   width: 103px;
-  height: 30px;
+  height: 50px;
 }
 
 div.fifthList p {
@@ -377,4 +380,16 @@ div.copyright p {
   font-size: .8rem;
   font-weight: 400;
   line-height: 24px;
+}
+
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  div.footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

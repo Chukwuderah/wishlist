@@ -5,7 +5,7 @@ const SecondList = () => {
     <div className="secondList">
       <h3>Support</h3>
       <ul>
-        <li>111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</li>
+        <li>111 Bijoy sarani, Dhaka, <br />DH 1515, Bangladesh.</li>
         <li>exclusive@gmail.com</li>
         <li>+88015-88888-9999</li>
       </ul>

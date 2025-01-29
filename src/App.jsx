@@ -8,13 +8,13 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <body>
+    <>
       <Top />
       <Header />
       <WishList />
       <Suggestion />
       <Footer />
-    </body>
+    </>
   );
 }
 
