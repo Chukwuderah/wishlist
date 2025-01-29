@@ -95,12 +95,12 @@ const WishList = () => {
         <WishlistItem
           image={gammaxx}
           name="RGB liquid CPU Cooler"
-          price={750}
+          price={1960}
         />
         <WishlistItem
           image={frame}
           name="GP11 Shooter USB Gamepad"
-          price={750}
+          price={550}
         />
         <WishlistItem image={jacket} name="Quilted Satin Jacket" price={750} />
       </div>
