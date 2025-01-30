@@ -60,15 +60,17 @@ header {
   padding: 2rem 7rem;
 }
 
-header div.menu {
-  width: 100%;
+header div.menu,
+div.icons {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 1rem;
 }
 
 div.menu img {
+  display: none;
   width: 50px;
   height: 50px;
 }
@@ -400,8 +402,20 @@ div.copyright p {
 }
 
 @media screen and (max-width: 1030px) {
-  header, div.container {
+  header {
     flex-direction: column;
+  }
+
+  header div.menu {
+    width: 100%;
+  }
+
+  header div.menu img {
+    display: block;
+  }
+
+  .hidden {
+    display: none;
   }
 
   header h1 {
@@ -412,8 +426,15 @@ div.copyright p {
     flex-direction: column;
   }
 
-  header, section, footer {
+  header,
+  section,
+  footer {
     padding: 2rem;
+  }
+
+  header div.search,
+  div.icons {
+    display: none;
   }
 
   div.footer {
@@ -445,7 +466,10 @@ div.copyright p {
   }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 600px) {
+  div.top {
+    display: none;
+  }
   section.wishlist div.txt button.btn {
     display: none;
   }
@@ -453,7 +477,7 @@ div.copyright p {
   section.wishlist div.txt svg {
     display: block;
   }
-  
+
   div.items {
     width: 80%;
     max-width: 100%;
