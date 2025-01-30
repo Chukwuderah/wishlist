@@ -1,9 +1,13 @@
 import React from "react";
+import hamburger from "../src/assets/hamburger.png";
 
 const Header = () => {
   return (
     <header>
-      <h1>Exclusive</h1>
+      <div className="menu">
+        <h1>Exclusive</h1>
+        <img src={hamburger} alt="hamburger" />
+      </div>
       <ul>
         <li>Home</li>
         <li>Contact</li>
